@@ -1,0 +1,26 @@
+@font-face {
+    font-family: digital-clock;
+    src: url(digital-clock.ttf);
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: digital-clock;
+    font-size: 6.7rem;
+    font-weight: bold;
+    color: red;
+}
+
